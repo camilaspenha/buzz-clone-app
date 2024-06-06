@@ -17,5 +17,6 @@
   <div class="quizz__results" [ngClass]="answerClass"*ngIf="finished">
    <h1> Seu resultado é: </h1>
    <p> {{ answerSelected}} </p>
+   <button (click)="reset()" class="btn__reset" >Quero tentar outra vez!</button>
   </div>
 </div>
